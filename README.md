@@ -78,21 +78,6 @@ The CSV has one row per observation used for the final fitted model and the foll
 
 Temperature and precipitation anomalies were calculated using locality means and globally z-scored in the original workflow. The provided CSV contains these **already transformed** values: do not recalculate transformations from the restricted 13-column dataset. The exporter selects the same rows used in the original fitted model.
 
-## For authors: create the CSV
-
-The export script is **not** a standalone raw-data pipeline. To generate the input file before publication:
-
-1. Run the original analysis through the final fit of `m2_ar1`, so `dat_main` and `m2_ar1` both exist in the current R session.
-2. In the intended repository/output directory run:
-
-   ```r
-   source("01_export_climate_abundance_data.R")
-   ```
-
-3. Check that `climate_abundance_model_input.csv` was created.
-
-The CSV is not generated from the code in this repository alone; it must first be exported from the authors' existing analysis environment.
-
 ## Citation and reuse
 
-Use the GitHub **Cite this repository** menu. **No software or data license is granted by this repository package yet**: the authors/data owners should choose and add an appropriate `LICENSE` and, if necessary, separate data-use terms before public release.
+Use the GitHub **Cite this repository** menu.
