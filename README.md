@@ -8,7 +8,7 @@ Reproducible R code and model input data accompanying a manuscript examining ass
 
 | File | Purpose |
 | --- | --- |
-| `climate_abundance_model_input_GITHUB.csv` | Model-ready observations (13 columns). **Add this file after running the export script; it is not included in the initial package.** |
+| `climate_abundance_model_input_GITHUB.csv` | Model-ready observations (13 columns). |
 | `climate_abundance_GITHUB.R` | Standalone script that imports the CSV and fits the final model. |
 | `README.md` | Reproduction instructions and data dictionary. |
 | `CITATION.cff` | GitHub citation metadata; **confirm author and publication metadata before release**. |
