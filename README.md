@@ -95,4 +95,4 @@ The CSV is not generated from the code in this repository alone; it must first b
 
 ## Citation and reuse
 
-Use the GitHub **Cite this repository** menu once `CITATION.cff` has been checked and updated. **No software or data license is granted by this repository package yet**: the authors/data owners should choose and add an appropriate `LICENSE` and, if necessary, separate data-use terms before public release.
+Use the GitHub **Cite this repository** menu. **No software or data license is granted by this repository package yet**: the authors/data owners should choose and add an appropriate `LICENSE` and, if necessary, separate data-use terms before public release.
