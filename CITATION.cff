@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and this repository when using the code or data."
+type: software
+title: "Climate sensitivity of butterfly and bumblebee abundance: reproducible model code and input data"
+authors:
+  - family-names: "Gohli"
+    given-names: "Jostein"
+  - family-names: "Åström"
+    given-names: "Jens"
+  - family-names: "Åström"
+    given-names: "Sandra"
+# BEFORE PUBLICATION: Verify the authors/attribution above; add other contributors
+# where appropriate, as well as repository-url, version, doi and date-released.
+# Add the manuscript citation when it is available.
